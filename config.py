@@ -29,6 +29,7 @@ MACRO_VARS = [
 # X-LSTM parameters
 HIDDEN_SIZE = 64
 NUM_LAYERS = 2
+DROPOUT = 0.1                    # added this line
 SEQ_LEN = 10
 LEARNING_RATE = 0.001
 EPOCHS = 30
